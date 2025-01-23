@@ -7,7 +7,7 @@ const getEvents = async (req, res = response) => {
 
   res.json({
     ok: true,
-    msg: events,
+    eventos: events,
   });
 };
 const newEvent = async (req, res = response) => {
