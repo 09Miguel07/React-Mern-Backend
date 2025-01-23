@@ -30,11 +30,6 @@ const newEvent = async (req, res = response) => {
       msg: "Hable con el administrador",
     });
   }
-
-  res.json({
-    ok: true,
-    msg: "Nuevo evento",
-  });
 };
 const updateEvent = async (req, res = response) => {
   const idEvent = req.params.id;
